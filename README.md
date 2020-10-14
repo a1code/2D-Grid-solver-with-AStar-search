@@ -6,7 +6,7 @@
 - Performed experiments and reported observations to compare the performances of different variations of the A* algorithm .  
   
   
-**Abstract** :
+**Abstract** :  
 An agent in a gridworld has to move from its current cell to the given cell of a non-moving target, where the gridworld is not fully known. They are discretizations of terrain into square cells that are either blocked or unblocked.  
 
 The agent moves along a path that satisfies the following three properties:
