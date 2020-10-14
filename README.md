@@ -7,8 +7,8 @@ The agent moves along a path that satisfies the following three properties:
 2. It is a path that the agent does not know to be blocked and thus assumes to be unblocked, i.e., a presumed unblocked path.
 3. It is a shortest such path.
 
-The agent repeatedly calls the A* search algorithm to find a "shortest presumed-unblocked path" from its current cell to the target. The cycle stops when the agent:
-• either reaches the target, or
+The agent repeatedly calls the A* search algorithm to find a "shortest presumed-unblocked path" from its current cell to the target. The cycle stops when the agent:  
+• either reaches the target, or  
 • determines that it cannot reach the target because there is no presumed-unblocked path from its current cell to the target, and it is thus separated from the target by blocked cells.
 
 In the former case, the agent reports that it reached the target. In the latter case, it reports that it cannot reach the target.
